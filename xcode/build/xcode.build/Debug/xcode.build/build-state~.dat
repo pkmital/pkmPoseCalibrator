@@ -1,685 +1,0 @@
-Txcode
-v7
-r0
-t328442106.156066
-cCheck dependencies
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/app.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmFaceTracker.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/CLM.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/CLM.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FCheck.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FCheck.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FDet.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FDet.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/IO.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/IO.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Patch.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Patch.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PAW.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PAW.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PDM.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PDM.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Tracker.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Tracker.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseCalibrator.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseFilter.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004DA8302700000000000000EE
-t1302868007
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004BBD2CE90000000000004174
-t1270689001
-s16756
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/src/app.h
-c000000004DE3674F0000000000000304
-t1306748751
-s772
-i"pkmFaceTracker.h"
-i"pkmFaceModeler.h"
-i"pkmPoseCalibrator.h"
-i"pkmPoseFilter.h"
-i<opencv2/opencv.hpp>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/src/pkmFaceTracker.h
-c000000004DE368C400000000000011D9
-t1306749124
-s4569
-i<Tracker.h>
-i<opencv/highgui.h>
-i<iostream>
-i<vector>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/src/pkmPoseCalibrator.h
-c000000004DE36750000000000000040F
-t1306748752
-s1039
-i<opencv2/opencv.hpp>
-i<vector.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/src/pkmPoseFilter.h
-c000000004DE36750000000000000038A
-t1306748752
-s906
-i<vector.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_Basic.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_CAM.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_IC.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_MovieAVI.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_PAW.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_PDM.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_Shape.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_TDM.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_Util.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/VJfacedetect.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp
-c000000004DE369680000000000000841
-t1306749288
-s2113
-i"app.h"
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h
-c000000004DE3674F0000000000000304
-t1306748751
-s772
-i"pkmFaceTracker.h"
-i"pkmFaceModeler.h"
-i"pkmPoseCalibrator.h"
-i"pkmPoseFilter.h"
-i<opencv2/opencv.hpp>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp
-c000000004DE3674F0000000000000170
-t1306748751
-s368
-i<opencv/highgui.h>
-i"app.h"
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/CLM.cc
-c000000004DE3674F00000000000034EE
-t1306748751
-s13550
-i<CLM.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/CLM.h
-c000000004DE3674F0000000000001115
-t1306748751
-s4373
-i<PDM.h>
-i<Patch.h>
-i<vector>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FCheck.cc
-c000000004DE3674F0000000000001AA9
-t1306748751
-s6825
-i<FCheck.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FCheck.h
-c000000004DE3674F000000000000102F
-t1306748751
-s4143
-i<PAW.h>
-i<vector>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FDet.cc
-c000000004DE3674F00000000000024FA
-t1306748751
-s9466
-i<FDet.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FDet.h
-c000000004DE3674F0000000000000FA8
-t1306748751
-s4008
-i<IO.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/IO.cc
-c000000004DE3674F00000000000015C8
-t1306748751
-s5576
-i<IO.h>
-i<stdio.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/IO.h
-c000000004DE3674F0000000000000BF6
-t1306748751
-s3062
-i<opencv/cv.h>
-i<fstream>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PAW.cc
-c000000004DE3674F00000000000027CF
-t1306748751
-s10191
-i<PAW.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PAW.h
-c000000004DE3674F00000000000010AF
-t1306748751
-s4271
-i<IO.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PDM.cc
-c000000004DE3674F0000000000004380
-t1306748751
-s17280
-i<PDM.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PDM.h
-c000000004DE3674F000000000000102A
-t1306748751
-s4138
-i<IO.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Patch.cc
-c000000004DE3674F0000000000002BFE
-t1306748751
-s11262
-i<Patch.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Patch.h
-c000000004DE3674F00000000000010C4
-t1306748751
-s4292
-i<IO.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Tracker.cc
-c000000004DE3674F00000000000021A9
-t1306748751
-s8617
-i<Tracker.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Tracker.h
-c000000004DE3674F00000000000013BE
-t1306748751
-s5054
-i<CLM.h>
-i<FDet.h>
-i<FCheck.h>
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceModeler.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceModeler.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp
-c000000004DE367500000000000000083
-t1306748752
-s131
-i"pkmFaceTracker.h"
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp
-c000000004DE3694A00000000000014D5
-t1306749258
-s5333
-i"pkmPoseCalibrator.h"
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp
-c000000004DE3675000000000000000AA
-t1306748752
-s170
-i"pkmPoseFilter.h"
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/xcode
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_Basic.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_CAM.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_IC.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_MovieAVI.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_PAW.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_PDM.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_Shape.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_TDM.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_Util.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/CLM.o
-t1306749304
-s462172
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FCheck.o
-t1306749304
-s220852
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FDet.o
-t1306749304
-s141984
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/IO.o
-t1306749304
-s194776
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PAW.o
-t1306749304
-s210168
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PDM.o
-t1306749305
-s237260
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Patch.o
-t1306749304
-s262276
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Tracker.o
-t1306749305
-s282364
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/VJfacedetect.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/app.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmFaceModeler.o
-t2
-s0
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmFaceTracker.o
-t1306749304
-s50864
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseCalibrator.o
-t1306749306
-s334460
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseFilter.o
-t1306749305
-s95420
-
-N/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/xcode.LinkFileList
-c000000004DE3696D00000000000005C3
-t1306749293
-s1475
-
-N/usr/local/include/opencv/cv.h
-c000000004D88D10E0000000000000D55
-t1300812046
-s3413
-
-N/usr/local/include/opencv/highgui.h
-c000000004D88D10E0000000000000902
-t1300812046
-s2306
-
-N/usr/local/include/opencv2/opencv.hpp
-c000000004D88D10E0000000000000AC8
-t1300812046
-s2760
-
-N/usr/local/lib/libopencv_calib3d.2.2.0.dylib
-c000000004D88D5C30000000000155FF0
-t1300813251
-s1400816
-
-N/usr/local/lib/libopencv_contrib.2.2.0.dylib
-c000000004D88D5C40000000000083228
-t1300813252
-s537128
-
-N/usr/local/lib/libopencv_core.2.2.0.dylib
-c000000004D88D5C400000000005B1F58
-t1300813252
-s5971800
-
-N/usr/local/lib/libopencv_features2d.2.2.0.dylib
-c000000004D88D5C40000000000219FD0
-t1300813252
-s2203600
-
-N/usr/local/lib/libopencv_flann.2.2.0.dylib
-c000000004D88D5C40000000000011170
-t1300813252
-s70000
-
-N/usr/local/lib/libopencv_gpu.2.2.0.dylib
-c000000004D88D5C40000000000041CC8
-t1300813252
-s269512
-
-N/usr/local/lib/libopencv_highgui.2.2.0.dylib
-c000000004D88D5C40000000000252BE8
-t1300813252
-s2436072
-
-N/usr/local/lib/libopencv_imgproc.2.2.0.dylib
-c000000004D88D5C400000000003D7B70
-t1300813252
-s4029296
-
-N/usr/local/lib/libopencv_legacy.2.2.0.dylib
-c000000004D88D5C40000000000194608
-t1300813252
-s1656328
-
-N/usr/local/lib/libopencv_ml.2.2.0.dylib
-c000000004D88D5C400000000000FACA8
-t1300813252
-s1027240
-
-N/usr/local/lib/libopencv_objdetect.2.2.0.dylib
-c000000004D88D5C400000000000A7E50
-t1300813252
-s687696
-
-N/usr/local/lib/libopencv_ts.2.2.0.dylib
-c000000004D88D5C40000000000125608
-t1300813252
-s1201672
-
-N/usr/local/lib/libopencv_video.2.2.0.dylib
-c000000004D88D5C400000000000814E0
-t1300813252
-s529632
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies328442093#328442093#0(0"0(0#1#0"8648805888#0"0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_Basic.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_Basic.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_CAM.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_CAM.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_IC.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_IC.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_MovieAVI.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_MovieAVI.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_PAW.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_PAW.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_PDM.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_PDM.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_Shape.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_Shape.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_TDM.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_TDM.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/AAM_Util.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/AAM_Util.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/CLM.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/CLM.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442093.129387
-e328442105.487077
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/CLM.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/CLM.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/CLM.cc328442093#328442105#0(0"0(0#0#71"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/CLM.cc8654851328#1412"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/CLM.cc -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/CLM.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FCheck.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FCheck.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442093.129949
-e328442105.027772
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FCheck.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FCheck.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FCheck.cc328442093#328442105#0(0"0(0#0#74"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FCheck.cc8654365216#1418"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FCheck.cc -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FCheck.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FDet.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FDet.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442093.130657
-e328442104.728824
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FDet.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FDet.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FDet.cc328442093#328442105#0(0"0(0#0#72"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FDet.cc8652310400#1414"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/FDet.cc -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/FDet.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/IO.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/IO.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442093.131459
-e328442104.728921
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/IO.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/IO.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/IO.cc328442093#328442105#0(0"0(0#0#70"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/IO.cc8651595168#1410"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/IO.cc -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/IO.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PAW.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PAW.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442093.133404
-e328442105.027927
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PAW.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PAW.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PAW.cc328442093#328442105#0(0"0(0#0#71"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PAW.cc8651261952#1412"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PAW.cc -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PAW.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PDM.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PDM.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442104.629522
-e328442105.981810
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PDM.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PDM.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PDM.cc328442104#328442106#0(0"0(0#0#71"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PDM.cc8628343680#1412"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/PDM.cc -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/PDM.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Patch.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Patch.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442093.132442
-e328442105.032088
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Patch.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Patch.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Patch.cc328442093#328442105#0(0"0(0#0#73"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Patch.cc8651512288#1416"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Patch.cc -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Patch.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Tracker.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Tracker.cc normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442104.728982
-e328442105.969340
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Tracker.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Tracker.cc
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Tracker.cc328442104#328442106#0(0"0(0#0#75"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Tracker.cc8659642048#1420"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/facetracker/Tracker.cc -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/Tracker.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/VJfacedetect.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/aam-library/VJfacedetect.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/app.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442093.114626
-e328442093.128576
-r0
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/app.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442093#328442093#0(2040"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp:9:/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:13:28: error: pkmFaceModeler.h: No such file or directoryIn file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h:59,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h:16,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:14,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp:9:/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:12,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp:9:/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h: In member function 'void pkmFaceTracker::update(cv::Mat&)':/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h:91: warning: unused variable 'idx'In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp:9:/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h: At global scope:/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:29: error: ISO C++ forbids declaration of 'pkmFaceModeler' with no type/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:29: error: expected ';' before '*' token/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp: In member function 'void app::draw()':/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp:67: error: 'faceModeler' was not declared in this scope7(4@43"PkmFaceModeler.h: No such file or directory328442093#86#117#2(7@82"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442093#18446744073709551615#0#0(6@60"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442088#9#0#9#0#0"0(13@105"PkmFaceModeler.h: No such file or directory in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442093#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#13#0#13#0#0"0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#13#0#13#0#28"*: No such file or directory0(22@354"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.328442093#570#451#5(7@82"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442093#18446744073709551615#0#0(6@60"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442088#9#0#9#0#0"0(7@80"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442093#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#14#0#14#0#0"0(7@94"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h328442093#18446744073709551615#0#0(6@72"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h328441552#16#0#16#0#0"0(7@92"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h328442093#18446744073709551615#0#0(6@70"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h309596155#59#0#59#0#0"0(13@438"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h328442093#18446744073709551615#0#0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h309596155#32#0#32#0#0"0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h309596155#32#0#32#0#10"#warning *0(22@21"Unused variable 'idx'328442093#1323#105#3(7@82"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442093#18446744073709551615#0#0(6@60"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442088#9#0#9#0#0"0(7@80"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442093#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#12#0#12#0#0"0(13@94"Unused variable 'idx' in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h328442093#18446744073709551615#0#0(6@69"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h328441924#91#0#91#0#0"0(6@69"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h328441924#91#0#91#0#19"unused variable '*'0(23@16"At global scope:328442093#1514#77#2(7@82"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442093#18446744073709551615#0#0(6@60"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442088#9#0#9#0#0"0(13@78"At global scope: in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442093#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#0#0#0#0#0"0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#0#0#0#0#0"0(4@60"ISO C++ forbids declaration of 'pkmFaceModeler' with no type328442093#1591#131#2(7@82"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442093#18446744073709551615#0#0(6@60"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442088#9#0#9#0#0"0(13@122"ISO C++ forbids declaration of 'pkmFaceModeler' with no type in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442093#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#29#0#29#0#0"0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#29#0#29#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token328442093#1722#100#2(7@82"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442093#18446744073709551615#0#0(6@60"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442088#9#0#9#0#0"0(13@91"Expected ';' before '*' token in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442093#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#29#0#29#0#0"0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#29#0#29#0#19"expected * before *0(4@44"'faceModeler' was not declared in this scope328442093#1923#117#0(6@60"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp328442088#67#0#67#0#34"'*' was not declared in this scope0(0#0#60"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp8660644768#1401"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.cpp -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/app.o1#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442093.078252
-e328442104.629344
-r0
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp:9:
-o/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:13:28: error: pkmFaceModeler.h: No such file or directory
-oIn file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h:59,
-o                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h:16,
-o                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:14,
-o                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp:9:
-o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.
-oIn file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:12,
-o                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp:9:
-o/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h: In member function 'void pkmFaceTracker::update(cv::Mat&)':
-o/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h:91: warning: unused variable 'idx'
-oIn file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp:9:
-o/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h: At global scope:
-o/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:29: error: ISO C++ forbids declaration of 'pkmFaceModeler' with no type
-o/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:29: error: expected ';' before '*' token
-lSLF07#2@73"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328442093#328442105#0(1842"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp:9:/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:13:28: error: pkmFaceModeler.h: No such file or directoryIn file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h:59,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h:16,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:14,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp:9:/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:12,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp:9:/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h: In member function 'void pkmFaceTracker::update(cv::Mat&)':/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h:91: warning: unused variable 'idx'In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp:9:/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h: At global scope:/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:29: error: ISO C++ forbids declaration of 'pkmFaceModeler' with no type/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h:29: error: expected ';' before '*' token6(4@43"PkmFaceModeler.h: No such file or directory328442093#91#117#2(7@87"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328442093#18446744073709551615#0#0(6@65"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328441551#9#0#9#0#0"0(13@105"PkmFaceModeler.h: No such file or directory in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442093#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#13#0#13#0#0"0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#13#0#13#0#28"*: No such file or directory0(22@354"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.328442093#580#451#5(7@87"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328442093#18446744073709551615#0#0(6@65"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328441551#9#0#9#0#0"0(7@80"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442093#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#14#0#14#0#0"0(7@94"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h328442093#18446744073709551615#0#0(6@72"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h328441552#16#0#16#0#0"0(7@92"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h328442093#18446744073709551615#0#0(6@70"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h309596155#59#0#59#0#0"0(13@438"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h328442093#18446744073709551615#0#0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h309596155#32#0#32#0#0"0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h309596155#32#0#32#0#10"#warning *0(22@21"Unused variable 'idx'328442102#1338#105#3(7@87"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328442102#18446744073709551615#0#0(6@65"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328441551#9#0#9#0#0"0(7@80"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442102#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#12#0#12#0#0"0(13@94"Unused variable 'idx' in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h328442102#18446744073709551615#0#0(6@69"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h328441924#91#0#91#0#0"0(6@69"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h328441924#91#0#91#0#19"unused variable '*'0(23@16"At global scope:328442103#1534#77#2(7@87"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328442103#18446744073709551615#0#0(6@65"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328441551#9#0#9#0#0"0(13@78"At global scope: in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442103#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#0#0#0#0#0"0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#0#0#0#0#0"0(4@60"ISO C++ forbids declaration of 'pkmFaceModeler' with no type328442103#1611#131#2(7@87"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328442103#18446744073709551615#0#0(6@65"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328441551#9#0#9#0#0"0(13@122"ISO C++ forbids declaration of 'pkmFaceModeler' with no type in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442103#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#29#0#29#0#0"0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#29#0#29#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected ';' before '*' token328442103#1742#100#2(7@87"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328442103#18446744073709551615#0#0(6@65"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp328441551#9#0#9#0#0"0(13@91"Expected ';' before '*' token in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328442103#18446744073709551615#0#0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#29#0#29#0#0"0(6@58"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/app.h328441551#29#0#29#0#19"expected * before *0(0#0#65"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp8620176256#1407"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/exe/main.cpp -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/main.o1#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmFaceModeler.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceModeler.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmFaceTracker.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442093.128638
-e328442104.728699
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmFaceTracker.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp:9:
-o/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h: In member function 'void pkmFaceTracker::update(cv::Mat&)':
-o/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h:91: warning: unused variable 'idx'
-lSLF07#2@79"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp328442093#328442105#0(333"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp:9:/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h: In member function 'void pkmFaceTracker::update(cv::Mat&)':/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h:91: warning: unused variable 'idx'1(22@21"Unused variable 'idx'328442102#228#105#2(7@93"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp328442102#18446744073709551615#0#0(6@71"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp328441552#9#0#9#0#0"0(13@94"Unused variable 'idx' in /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h328442102#18446744073709551615#0#0(6@69"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h328441924#91#0#91#0#0"0(6@69"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.h328441924#91#0#91#0#19"unused variable '*'0(0#0#71"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp8659429440#1423"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmFaceTracker.cpp -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmFaceTracker.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseCalibrator.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442104.893250
-e328442106.155863
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseCalibrator.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h:59,
-o                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h:16,
-o                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp:46:
-o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.
-lSLF07#2@82"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp328442104#328442106#0(748"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h:59,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h:16,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp:46:/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.1(22@354"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.328442105#297#451#4(7@96"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp328442105#18446744073709551615#0#0(6@74"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp328442058#46#0#46#0#0"0(7@94"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h328442105#18446744073709551615#0#0(6@72"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.h328441552#16#0#16#0#0"0(7@92"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h328442105#18446744073709551615#0#0(6@70"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h309596155#59#0#59#0#0"0(13@438"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h328442105#18446744073709551615#0#0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h309596155#32#0#32#0#0"0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h309596155#32#0#32#0#10"#warning *0(0#0#74"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp8655849184#1429"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseCalibrator.cpp -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseCalibrator.o0#
-
-CCompileC build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseFilter.o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
-s328442105.011117
-e328442105.371702
-r1
-xCompileC
-xbuild/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseFilter.o
-x/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.gcc.4_2
-oIn file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h:59,
-o                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.h:13,
-o                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp:10:
-o/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.
-lSLF07#2@78"Compile /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp328442105#328442105#0(740"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h:59,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.h:13,                 from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp:10:/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.1(22@354"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated.328442105#289#451#4(7@92"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp328442105#18446744073709551615#0#0(6@70"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp328441552#10#0#10#0#0"0(7@90"In file included from /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.h328442105#18446744073709551615#0#0(6@68"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.h328441552#13#0#13#0#0"0(7@92"In file included from /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h328442105#18446744073709551615#0#0(6@70"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/vector.h309596155#59#0#59#0#0"0(13@438"#warning This file includes at least one deprecated or antiquated header. Please consider using one of the 32 headers found in section 17.4.1.2 of the C++ standard. Examples include substituting the <X> header for the <X.h> header for C++ includes, or <iostream> instead of the deprecated header <iostream.h>. To disable this warning use -Wno-deprecated. in /Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h328442105#18446744073709551615#0#0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h309596155#32#0#32#0#0"0(6@80"/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h309596155#32#0#32#0#10"#warning *0(0#0#70"/Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp8654711200#1421"    cd /Users/pkmital/Coding/pkmPoseCalibrator/xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-generated-files.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-own-target-headers.hmap -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-all-target-headers.hmap -iquote /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/xcode-project-headers.hmap -F/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/include -I../src -I../src/exe -I../src/facetracker -I/usr/local/include -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources/x86_64 -I/Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/DerivedSources -c /Users/pkmital/Coding/pkmPoseCalibrator/xcode/../src/pkmPoseFilter.cpp -o /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/xcode.build/Debug/xcode.build/Objects-normal/x86_64/pkmPoseFilter.o0#
-
-CLd /Users/pkmital/Coding/pkmPoseCalibrator/xcode/build/Debug/xcode normal x86_64
-r0
-
